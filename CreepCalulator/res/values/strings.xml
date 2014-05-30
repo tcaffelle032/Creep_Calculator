@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Creep Calulator "</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_template_">Template Activity</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+
+    <string-array name="Item_Lists"> 
+        <item>Consumables</item>       
+        <item>Attributes</item>
+        <item>Aramaments</item>
+        <item>Arcane</item> 
+        <item>Common</item>   
+        <item>Support</item>   
+        <item>Caster</item>
+        <item>Weapons</item>
+        <item>Armor</item>
+        <item>Artifact</item>
+        <item>Secret</item>
+    </string-array>
+    
+   
+
+    
+
+    <string name="Submit">Submit</string>
+    <string name="CreepsKilled">Creeps Killed</string>
+    <string name="GoldEarned">Gold Earned</string>
+    <string name="Creeps">Creeps</string>
+    <string name="Gold">Gold</string>
+    <string name="CreepIcon">Kill these Guys</string>
+    <string name="GoldIcon">To get this</string>
+    <string name="title_activity_options__menu">Options_Menu</string>
+    <string name="PleaseSelect">Please Select a List</string>
+    <string name="OptionsMenu">Options Menu Button</string>
+    <string name="OriginalPrice">Original Price of the Item</string>
+    <string name="shopkeeper">What does it take to be a hero?</string>
+
+</resources>

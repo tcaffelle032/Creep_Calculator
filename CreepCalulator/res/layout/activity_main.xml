@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/ItemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CreepsKilled"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/OptionsMenu"
+        android:onClick="OpenOptions"
+        android:src="@drawable/options_menu" />
+
+    <Spinner
+        android:id="@+id/itemList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/settingButton" />
+
+    <ImageView
+        android:id="@+id/CreepIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/CreepIcon"
+        android:src="@drawable/creep_icon" />
+
+    <TextView
+        android:id="@+id/GoldEarned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/GoldIcon"
+        android:layout_below="@+id/ItemSelected"
+        android:layout_marginLeft="58dp"
+        android:text="@string/GoldEarned"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/GoldIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/GoldEarned"
+        android:layout_toLeftOf="@+id/OriginalPrice"
+        android:contentDescription="@string/GoldIcon"
+        android:src="@drawable/gold_icon" />
+
+    <TextView
+        android:id="@+id/OriginalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CreepIcon"
+        android:layout_toRightOf="@+id/CreepIcon"
+        android:text="@string/OriginalPrice"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CreepsKilled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CreepIcon"
+        android:layout_alignLeft="@+id/CreepIcon"
+        android:layout_marginLeft="58dp"
+        android:text="@string/CreepsKilled"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/shopkeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/OriginalPrice"
+        android:layout_toLeftOf="@+id/OriginalPrice"
+        android:contentDescription="@string/shopkeeper"
+        android:src="@drawable/shopkeeper" />
+
+    <ImageButton
+        android:id="@+id/clickedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/GoldIcon"
+        android:layout_below="@+id/GoldEarned"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/OptionsMenu"
+        android:onClick="ShowDescPopup"
+        android:src="@drawable/bottle" />
+
+</RelativeLayout>

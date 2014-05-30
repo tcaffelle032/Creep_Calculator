@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DotaItems>
+     <itemList name="Consumables">
+       	<item type="consum" price="50" name="Clarity" imageName="clarity"
+       	    use="Restores mana over time. If the user is attacked the effect is lost"></item>
+        <item type="consum" price="125" name="Tangos" imageName="tangos" 
+            use=" Eat Tree - Consume a tree to restore HP over time. Comes with 3 charges. "></item>
+        <item type="consum" price="115" name="Healing Salve" imageName="salve" 
+            use="Regenerate - Restores HP over time. If the user is attacked, the effect is lost. "></item>
+        <item type="consum" price="100" name="Smoke of Deceit" imageName="smoke"
+             use="Upon activation, the user and all nearby allied player-controlled units gain invisiblity and bonus movement speed for a brief time. Minimap icons will also be hidden. Upon moving within 1025 range of an enemy hero or tower, the invisibility is lost. "></item>
+        <item type="consum" price="135" name="Town Portal Scroll" imageName="tp" 
+            use=" Teleport - Teleports you to a target friendly building. "></item>
+        <item type="consum" price="180" name="Dust of Appearance" imageName="dust" 
+            use=" Reveal - Reveals and slows invisible Heroes in a nearby area. "></item>
+        <item type="consum" price="150" name="Courier" imageName="courier" 
+            use="Creature that carries items to and from your base. "></item>
+        <item type="consum" price="220" name="Flying Couier" imageName="flying" 
+            use="Fast flying creature that carries items to and from your base. Requires Animal Courier. "></item>
+        <item type="consum" price="150" name="Observer Ward" imageName="ward" 
+            use="Places an Observer Ward to give sight of the surrounding area."></item>
+        <item type="consum" price="200" name="Sentry Ward" imageName="sentry" 
+            use="Places a Sentry Ward to give True Sight of the surrounding area."></item>
+        <item type="consum" price="650" name="Bottle" imageName="bottle" 
+            use="Regenerate - Restores HP and Mana over time. Effect is lost if unit is attacked. Empty Bottle refills near town fountain. You can also store runes in the bottle, to save for later use. After 2 minutes, stored Runes will be activated. If Bottle is empty, it causes a courier to move 30% slower. "></item>      
+   </itemList>          
+    <itemList name="Attributes">
+       	<item type="att" price="53" name="Iron Branch" imageName="branch"
+       	    use="+1 All Attributes"></item>
+        <item type="att" price="150" name="Gauntlets of Strength" imageName="gauntlets"
+            use="+3 Strength"></item>
+        <item type="att" price="150" name="Slippers of Agility" imageName="slippers"
+            use="+3 Agility"></item>
+        <item type="att" price="150" name="Mantle of Intelligence" imageName="mantle"
+            use="+3 Intelligence"></item>
+        <item type="att" price="185" name="Circlet" imageName="circlet"
+            use="+2 All Attributes"></item>
+        <item type="att" price="450" name="Belt of Strength" imageName="belt"
+            use="+6 Strength"></item>
+        <item type="att" price="450" name="Band of Elvenskin" imageName="band"
+            use="+6 Agility"></item>
+        <item type="att" price="450" name="Robe of the Magi" imageName="robe"
+            use="+6 Intelligence"></item>
+        <item type="att" price="1000" name="Ogre Club" imageName="ogre"
+            use="+10 Strength"></item>
+        <item type="att" price="1000" name="Blade of Alacrity" imageName="blade"
+            use="+10 Agility"></item>
+        <item type="att" price="1000" name="Staff of Wizardary" imageName="staff"
+            use="+10 Intelligence"></item>
+        <item type="att" price="2100" name="Ultimate Orb" imageName="ult"
+            use="+10 All Attributes"></item>
+   </itemList>    
+   <itemList name="Armaments">
+        <item type="arm" price="175" name="Ring of Protection" imageName="ringprot"
+            use="+2 Armor"></item>
+        <item type="arm" price="225" name="Quelling Blade" imageName="qbblade"
+            use="Active: Destroy Tree/Ward - Destroy a target tree, or deals 100 damage to a ward.\n\nPassive: Quell - Gives bonus attack damage against non-hero units, depending on the type of hero you are. "></item>
+        <item type="arm" price="250" name="Sout Shield" imageName="stout"
+            use="Passive: Damage Block - Gives a chance to block damage, depending on the type of hero you are. "></item>
+        <item type="arm" price="450" name="Blades of Attack" imageName="blades"
+            use="+9 Damage"></item>
+        <item type="arm" price="550" name="Chainmail" imageName="chainmail"
+            use="+5 Armor"></item>
+        <item type="arm" price="950" name="Helm of Iron Will" imageName="helmiron"
+            use="+5 Armor\n+3 HP Regen"></item>
+        <item type="arm" price="1200" name="Broadsword" imageName="broadsword"
+            use="+18 Damage"></item>
+        <item type="arm" price="900" name="Quarterstaff" imageName="quarterstaff"
+            use="+10 Damabe\n+10 Attack Speed"></item>
+        <item type="arm" price="1400" name="Claymore" imageName="clay"
+            use="+21 Damage"></item>
+        <item type="arm" price="1500" name="Javelin" imageName="jav"
+            use="Passive: Pierce - Grants a chance to deal bonus damage.\n\n+21 Damage\nCHANGE TO PIERCE:20%\nPIERCE DAMGE:40 "></item>
+        <item type="arm" price="1400" name="Platemail" imageName="plate"
+            use="+10 Armor"></item>
+        <item type="arm" price="1600" name="Mithril Hammer" imageName="mith"
+            use="+24 Damage"></item>
+   </itemList>   
+   <itemList name="Arcane">
+        <item type="arc" price="200" name="Magic Stick" imageName="stick"
+            use="Active: Energy Charge - Gains charges (max 10) based on enemies using abilities in a nearby area. When activated, it restores health and mana based on the number of charges stored. "></item>
+        <item type="arc" price="325" name="Sage's Mask" imageName="smask"
+            use="+50% Mana Regeneration"></item>
+        <item type="arc" price="350" name="Ring of Regen" imageName="ringregen"
+            use="+2 HP Regeneration"></item>
+        <item type="arc" price="450" name="Boots of Speed" imageName="boots"
+            use="+50 Movement Speed"></item>
+        <item type="arc" price="500" name="Gloves of Haste" imageName="gloves"
+            use="+15 Attack Speed"></item>
+        <item type="arc" price="550" name="Cloak" imageName="cloak"
+            use="+15% Spell Resistance"></item>
+        <item type="arc" price="900" name="Gem of True Sight" imageName="gem"
+            use="Passive: True Sight - Gives the ability to see invisible units and wards. Drops on death, but cannot be destroyed. "></item>
+        <item type="arc" price="900" name="Morbid Mask" imageName="morbid"
+            use="Passive: Lifesteal - Gives lifesteal on attacks.\n\nMorbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers. "></item>
+        <item type="arc" price="1600" name="Ghost Scepter" imageName="ghost"
+            use="Active: Ghost Form - Enter ghost form, unable to attack or be attacked, but take -40% extra magic damage. Using a Teleport Scroll or Boots of Travel dispels Ghost Form.\n\n+7 All Attributes"></item>
+        <item type="arc" price="1800" name="Tailsmen of Evasion" imageName="tailsmen"
+            use="+25% Evasion"></item>
+        <item type="arc" price="2150" name="Blink Dagger" imageName="blink"
+            use="Active: Blink - Teleport to a target point up to 1200 units away. If damage is taken from an enemy hero, Blink Dagger cannot be used for 3 seconds."></item>
+        <item type="arc" price="1600" name="Shadow Amulet" imageName="samulet"
+            use="Active: Fade - Go invisible over 1.8 seconds. If you move, you will become visible.\n\n+30 Attack Speed"></item>
+   </itemList> 
+   <itemList name="Common">
+       <item type="com" price="485" name="Wraith Band" imageName="wraith"
+           use="+ 3 Strength\n+6 Agility \n+3 Intelligence \n+3 Damage "></item>
+       <item type="com" price="470" name="Null Tailsman" imageName="nulltail"
+           use="+ 3 Strength\n+ 3 Agility\n+ 6 Intelligence\n+ 3 Damage "></item>
+       <item type="com" price="509" name="Magic Wand" imageName="wand"
+           use="Active: Energy Charge - Gains charges (max 15) based on enemies using abilities in a nearby area. When activated, it restores health and mana based on the number of charges stored. \n+ 3 All Attributes\n RESTORE PER CHARGE: 15  "></item>
+       <item type="com" price="525" name="Bracer" imageName="bracer"
+           use="+ 6 Strength\n+ 3 Agility\n+ 3 Intelligence\n+ 3 Damage "></item>
+       <item type="com" price="550" name="Poor Man's Shield" imageName="poorshield"
+           use="Passive: Damage Block - Blocks physical attack damage, depending on the type of hero you are. Poor Man's Shield will always block attacks from enemy Heroes, but has a chance to block damage from creeps.\nMELEE BLOCK: 20\nRANGED BLOCK: 10\nBLOCK CHANCE: 60%\n+ 6 Agility  "></item>
+       <item type="com" price="800" name="Soul Ring" imageName="soulring"
+           use="Active: Sacrifice - Consume 150 HP to temporarily gain 150 Mana. Lasts 10 seconds.\n+ 3 HP Regeneration\n+ 50% Mana Regeneration 
+            "></item>
+       <item type="com" price="1350" name="Phase Boots" imageName="phase"
+           use="Active: Phase - Gives increased movement speed and lets you move through units. Phase is cancelled upon using another item or ability.\n\nPHASE DURATION: 4\nPHASE MOVE BOOST: 16%\n+ 50 Movement Speed\n+ 24 Damage\n"></item>
+       <item type="com" price="1400" name="Power Treads" imageName="power"
+           use="Active: Switch Attribute - Changes selected attribute between Strength, Agility and Intelligence.\n+ 50 Movement Speed\n+ 8 Selected Attribute\n+ 30 Attack Speed "></item>
+       <item type="com" price="1675" name="Oblivion Staff" imageName="oblivion"
+           use="+ 6 Intelligence\n+ 10 Attack Speed\n+ 15 Damage\n+ 75% Mana Regeneration "></item>
+       <item type="com" price="1750" name="Perseverance" imageName="pers"
+           use="+ 10 Damage\n+ 5 HP Regeneration\n+ 125% Mana Regeneration "></item>
+       <item type="com" price="1900" name="Hand of Midas" imageName="hand"
+           use="Active: Transmute - Kills a non-hero target for 190 gold and 2.5x experience. Cannot be used on Ancients.\n + 30 Attack Speed "></item>
+       <item type="com" price="2450" name="Boots of Travel" imageName="bott"
+           use="Active: Teleport - Teleports you to an allied non-hero unit or structure.\n\n + 100 Movement Speed "></item>  
+   </itemList> 
+   <itemList name="Support">
+       <item type="sup" price="500" name="Ring of Basilius" imageName="ringbas"
+           use="Passive: Basilius Aura - Grants mana regeneration and armor in a 900 AoE. Active: Toggle whether the aura affects other non-hero units.\n\n+ 6 Damage\nAURA MANA REGEN: 0.65\n AURA BONUS ARMOR: 2\n+ 1 Armor  "></item>
+       <item type="sup" price="603" name="Headdress" imageName="head"
+           use="Passive: Regeneration Aura - Restores HP to allies in a 750 unit radius.\n\n+ 2 All Attributes\nBONUS REGEN: 3"></item>
+       <item type="sup" price="803" name="Buckler" imageName="buck"
+           use="Active: Armor Bonus - Gives +2 to all nearby allied units. Lasts 25 seconds on heroes, 30 seconds on units.\n\n+ 5 Armor\n+ 2 All Attributes"></item>
+       <item type="sup" price="875" name="Urn of Shadows" imageName="urn"
+           use="Gains charges every time an enemy hero dies within 1400 units. Only the closest Urn to the dying hero will gain a charge.\n\nActive: Soul Release - Heals HP over time for friendly units, but deals damage over time for enemy units. The healing effect is lost if the affected unit takes damage from an enemy hero or tower\n\n+ 50% Mana Regeneration+ 6 Strength\nURN HEAL: 400\nDURATION: 8\nURN DAMAGE: 150 "></item>
+       <item type="sup" price="985" name="Ring of Aquila" imageName="ringaq"
+           use="Passive: Aquila Aura - Grants mana regeneration and armor in a 900 AoE.\n\nActive: Toggle whether the aura affects other non-hero units.\n\n+ 9 Damage\n+ 3 All Attributes\n+ 3 Agility\n+ 1 Armor\nAURA MANA REGEN: 0.65\nAURA BONUS ARMOR: 2 "></item>
+       <item type="sup" price="975" name="Tranquil Boots" imageName="tboots"
+           use="Active: Heal - Restores 250 HP over 20 seconds while out of combat.\n\nPassive: Break - Tranquil Boots lose their bonuses and only provide 25 MS until the last 10 seconds don't have 3 instances of damage.\n\n+ 85 Movement Speed\n+ 4 Armor\n+ 10 HP Regeneration  "></item>
+       <item type="sup" price="1075" name="Medallion of Courage" imageName="medal"
+           use="Active: Valor - Reduces the armor of you and your target. Lasts 7 seconds.\n\n+ 6 Armor\n+ 50% Mana Regeneration "></item>
+       <item type="sup" price="1450" name="Arcane Boots" imageName="arcboot"
+           use="Active: Replenish Mana - Restores mana in an area around the hero.\n\n+ 55 Movement Speed\n+ 250 Mana\nMANA RESTORED: 135 "></item>
+       <item type="sup" price="1775" name="Drums of Enderence" imageName="drums"
+           use="Active: Endurance - Gives bonus +10 attack and +10% movement speed to surrounding allies.\n\nPassive: Swiftness Aura - Gives bonus attack and movement speed to surrounding allies.\n\n+ 9 All Attributes\n+ 3 Damage\nAURA ATTACK SPEED: 5\nAURA MOVE SPEED: 5%"></item>
+       <item type="sup" price="2050" name="Vladmir's Offering" imageName="vlad"
+           use=""></item>
+       <item type="sup" price="2306" name="Mekansm" imageName="mek"
+           use=""></item>
+       <item type="sup" price="3628" name="Pipe of Insight" imageName="pipe"
+           use=""></item>  
+    </itemList>     
+   <itemList name="Caster">
+  	 <item type="cast" price="2250" name="Force Staff" imageName="force" 
+  	     use="Active: Force - Pushes any target unit 600 units in the direction it is facing. Double click to self-cast.\n\n+ 10 Intelligence\n+ 3 HP Regeneration  "></item>
+  	 <item type="cast" price="2700" name="Necronomicon" imageName="nec" use="Active: Demonic Summoning - Summons a Necronomicon Warrior and a Necronomicon Archer to fight for you. Their strength and abilities increase as Necronomicon increases in level. Lasts 40 seconds.\n\n + 15/21/24 Intelligence\n+ 8/12/16 Strength"></item>
+  	 <item type="cast" price="2700" name="Eul's Scepter of Divinity" imageName="eul" use="Active: Cyclone - Target unit is swept up in a cyclone for 2.5 seconds, and is invulnerable.\n\n+ 10 Intelligence\n+ 150% Mana Regeneration\n+ 40 Movement Speed "></item>
+  	 <item type="cast" price="2800" name="Dagon" imageName="dagon" use="Active: Energy Burst - Burst of damage to target enemy unit. Upgradable.+ 13/15/17/19/21 Intelligence\n\n+ 3 All Attributes\n+ 9 Damage\nBURST DAMAGE: 400/500/600/700/800"></item>
+  	 <item type="cast" price="2675" name="Veil of Discord" imageName="veil" use="Active: Magic Weakness - Emits a weakening blast that increases the magic damage enemies take. Lasts 25.0 seconds.\n\n + 6 Armor\n+ 6 Intelligence\n+ 6 HP Regeneration\nRADIUS: 600\nBONUS MAGIC DAMAGE: 25%\n+ 3 Strength\n+ 3 Agility\n+ 3 Damage \n"></item>
+  	 <item type="cast" price="3100" name="Rod of Atos" imageName="rod" use="Active: Cripple - Slows the target's movement speed.\n\n + 25 Intelligence\n+ 325 Health\nCRIPPLE SLOW: 60%\nDURATION: 4"></item>
+  	 <item type="cast" price="4200" name="Aganim's Scepter" imageName="scepter" use="Passive: Ultimate Upgrade - Upgrades the ultimates of certain heroes.\n\n + 10 All Attributes\n+ 200 Health\n+ 150 Mana "></item>
+  	 <item type="cast" price="5025" name="Orchid of Malevolence" imageName="orchid" use="Active: Soul Burn - Silences target unit for 5.0 seconds and amplifies the damage it takes by 30.0%.\n\n + 25 Intelligence\n+ 30 Attack Speed\n+ 30 Damage\n+ 150% Mana Regeneration"></item>
+  	 <item type="cast" price="5300" name="Refresher Orb" imageName="refreash" use="Active: Reset Cooldowns - Resets the cooldowns of all your items and abilities.\n\n + 5 HP Regeneration\n+ 200% Mana Regeneration\n+ 40 Damage\n+ 6 Intelligence"></item>
+  	 <item type="cast" price="5675" name="Scythe of Vyse" imageName="sythe" use="Active: Hex - Turns a target unit into a harmless critter for 3.5 seconds. Destroys illusions.\n\n + 10 Strength\n+ 10 Agility\n+ 35 Intelligence\n+ 150% Mana Regeneration"></item>
+   </itemList>  
+   <itemList name="Weapons">
+       <item type="wea" price="2150" name="Crystalys" imageName="crys"></item>
+       <item type="wea" price="2600" name="Armlet of Mordiggian" imageName="armlet"></item>
+       <item type="wea" price="2950" name="Skull Basher" imageName="basher"></item>
+       <item type="wea" price="3000" name="Shadow Blade" imageName="shadowbl"></item>
+       <item type="wea" price="4350" name="Battle Fury" imageName="battlef"></item>
+       <item type="wea" price="4900" name="Ethereal Blade" imageName="ethr"></item>
+       <item type="wea" price="5150" name="Radiance" imageName="rad"></item>
+       <item type="wea" price="5400" name="Monkey King Bar" imageName="mkb"></item>
+       <item type="wea" price="5550" name="Daedalus" imageName="daed"></item>
+       <item type="wea" price="6000" name="Butterfly" imageName="butter"></item>
+       <item type="wea" price="6200" name="Divine Rapier" imageName="divine"></item>
+       <item type="wea" price="6750" name="Abyssal Blade" imageName="abyssal"></item>       
+   </itemList>
+   <itemList name="Armor">
+       <item type="armor" price="2125" name="Hood of Defiance" imageName="hood"></item>
+       <item type="armor" price="2200" name="Blade Mail" imageName="blademail"></item>
+       <item type="armor" price="2225" name="Vanguard" imageName="vang"></item>
+       <item type="armor" price="3300" name="Soul Booser" imageName="soulb"></item>
+       <item type="armor" price="3975" name="Black King Bar" imageName="bkb"></item>
+       <item type="armor" price="4700" name="Shivia's Guard" imageName="shivia"></item>
+       <item type="armor" price="5050" name="Manta Syle" imageName="manta"></item>
+       <item type="armor" price="5050" name="Blood Stone" imageName="blood"></item>
+       <item type="armor" price="5175" name="Linken's Sphere" imageName="linken"></item>
+       <item type="armor" price="5250" name="Assault Cuirass" imageName="assaultc"></item>
+       <item type="armor" price="5500" name="Heart of Tarrasque" imageName="heart"></item>           
+   </itemList>
+   <itemList name="Artifacts">
+       <item type="art" price="1850" name="Helm of the Dominator" imageName="helmdom"></item>
+       <item type="art" price="1900" name="Mask of Madness" imageName="mom"></item>
+       <item type="art" price="2050" name="Sange" imageName="sange"></item>
+       <item type="art" price="2050" name="Yasha" imageName="yasha"></item>
+       <item type="art" price="2700" name="Malestrom" imageName="male"></item>
+       <item type="art" price="3300" name="Diffusal Blade" imageName="diffb"></item>
+       <item type="art" price="4100" name="Desolator" imageName="deso"></item>
+       <item type="art" price="3850" name="Heaven's Halberd" imageName="hh"></item>
+       <item type="art" price="4100" name="Sange and Yasha" imageName="say"></item>
+       <item type="art" price="5300" name="Mjollnir" imageName="mjol"></item>
+       <item type="art" price="5675" name="Eye of Skadi" imageName="eye"></item>
+       <item type="art" price="6150" name="Satanic" imageName="satan"></item>
+   </itemList>
+   <itemList name="Secret">
+       <item type="sec" price="2400" name="Demon's Edge" imageName="demon"></item>
+       <item type="sec" price="3300" name="EagleSong" imageName="eagle"></item>
+       <item type="sec" price="3200" name="Reaver" imageName="reaver"></item>
+       <item type="sec" price="3800" name="Sacred Relic" imageName="sacred"></item>
+       <item type="sec" price="2000" name="Hyperstone" imageName="hyper"></item>
+       <item type="sec" price="875" name="Ring of Health" imageName="ringhealth"></item>
+       <item type="sec" price="875" name="Void Stone" imageName="voidstone"></item>
+       <item type="sec" price="2700" name="Mystic Staff" imageName="mystic"></item>
+       <item type="sec" price="1000" name="Energy Booster" imageName="energyb"></item>
+       <item type="sec" price="1200" name="Point Booster" imageName="pointb"></item>
+       <item type="sec" price="1100" name="Vitality Booster" imageName="vitalb"></item>
+       <item type="sec" price="275" name="Orb of Venom" imageName="venom"></item>
+   </itemList>
+  </DotaItems>
